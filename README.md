@@ -11,7 +11,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [ ] **Null, Void & Multiple Indirection (Ch. 12.7–12.9):** Implement a `void*`-based memory pool that stores heterogeneous types and retrieves them via casting.
 
 ### Module 2: Dynamic Memory & Smart Pointers
-- [ ] **new / delete, heap vs stack (Ch. 19.1):** Build a dynamic stack (LIFO) using raw `new`/`delete`; detect and fix a deliberately seeded memory leak using Valgrind.
+- [x] **new / delete, heap vs stack (Ch. 19.1):** Build a dynamic stack (LIFO) using raw `new`/`delete`; detect and fix a deliberately seeded memory leak using Valgrind.
 - [ ] **unique_ptr (Ch. 22.5):** Implement a singly linked list where each node owns the next via `unique_ptr`; write insert, remove, print.
 - [ ] **shared_ptr & weak_ptr (Ch. 22.6–22.7):** Model a graph with shared nodes; use `weak_ptr` to break a cycle — verify with a custom destructor print trace.
 - [ ] **std::move & Move Semantics (Ch. 22.3):** Write a Buffer struct holding heap data; implement move constructor/assignment manually; confirm zero copies with trace logging.

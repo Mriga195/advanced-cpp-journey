@@ -1,4 +1,9 @@
+test.cpp
+test
+
 reverse_array
 matrix_flatten
 generic_swap
 memory_pool
+
+dynamic_stack
