@@ -5,9 +5,9 @@ My progress working through advanced C++ concepts and standard library features,
 ## Progress Tracker
 
 ### Module 1: Pointers & References
-- [ ] **Intro to Pointers (Ch. 12.1–12.3):** Implement a function that reverses an array in-place using only pointer arithmetic (no indexing).
-- [ ] **Pointer Arithmetic & Array Decay (Ch. 17.8):** Write `matrixFlatten(int** mat, int r, int c)` returning a heap-allocated 1D array using raw pointer traversal.
-- [ ] **References vs Pointers (Ch. 12.4–12.5):** Write a generic swap without `<algorithm>`, once with pointers and once with references; benchmark with `std::chrono`.
+- [x] **Intro to Pointers (Ch. 12.1–12.3):** Implement a function that reverses an array in-place using only pointer arithmetic (no indexing).
+- [x] **Pointer Arithmetic & Array Decay (Ch. 17.8):** Write `matrixFlatten(int** mat, int r, int c)` returning a heap-allocated 1D array using raw pointer traversal.
+- [x] **References vs Pointers (Ch. 12.4–12.5):** Write a generic swap without `<algorithm>`, once with pointers and once with references; benchmark with `std::chrono`.
 - [ ] **Null, Void & Multiple Indirection (Ch. 12.7–12.9):** Implement a `void*`-based memory pool that stores heterogeneous types and retrieves them via casting.
 
 ### Module 2: Dynamic Memory & Smart Pointers
