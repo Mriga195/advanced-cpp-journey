@@ -12,12 +12,12 @@ My progress working through advanced C++ concepts and standard library features,
 
 ### Module 2: Dynamic Memory & Smart Pointers
 - [x] **new / delete, heap vs stack (Ch. 19.1):** Build a dynamic stack (LIFO) using raw `new`/`delete`; detect and fix a deliberately seeded memory leak using Valgrind.
-- [ ] **unique_ptr (Ch. 22.5):** Implement a singly linked list where each node owns the next via `unique_ptr`; write insert, remove, print.
+- [x] **unique_ptr (Ch. 22.5):** Implement a singly linked list where each node owns the next via `unique_ptr`; write insert, remove, print.
 - [ ] **shared_ptr & weak_ptr (Ch. 22.6–22.7):** Model a graph with shared nodes; use `weak_ptr` to break a cycle — verify with a custom destructor print trace.
 - [ ] **std::move & Move Semantics (Ch. 22.3):** Write a Buffer struct holding heap data; implement move constructor/assignment manually; confirm zero copies with trace logging.
 
 ### Module 3: Functions — Advanced
-- [ ] **Function Pointers (Ch. 20.1):** Build a dispatch table (`std::array` of function pointers) mapping `char` operators to arithmetic lambdas.
+- [x] **Function Pointers (Ch. 20.1):** Build a dispatch table (`std::array` of function pointers) mapping `char` operators to arithmetic lambdas.
 - [ ] **std::function & Callable Wrappers (Ch. 20.3):** Implement a `Pipeline<T>` that chains `std::function<T(T)>` transforms and applies them sequentially to a value.
 - [ ] **Lambdas & Captures (Ch. 20.6):** Write a memoization wrapper using a lambda capturing a `std::unordered_map`; test with Fibonacci.
 - [ ] **constexpr Functions (Ch. 5.5):** Implement compile-time integer `sqrt` and verify result is a `constexpr` using a `static_assert`.
