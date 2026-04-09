@@ -20,7 +20,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **Function Pointers (Ch. 20.1):** Build a dispatch table (`std::array` of function pointers) mapping `char` operators to arithmetic lambdas.
 - [x] **std::function & Callable Wrappers (Ch. 20.3):** Implement a `Pipeline<T>` that chains `std::function<T(T)>` transforms and applies them sequentially to a value.
 - [x] **Lambdas & Captures (Ch. 20.6):** Write a memoization wrapper using a lambda capturing a `std::unordered_map`; test with Fibonacci.
-- [ ] **constexpr Functions (Ch. 5.5):** Implement compile-time integer `sqrt` and verify result is a `constexpr` using a `static_assert`.
+- [x] **constexpr Functions (Ch. 5.5):** Implement compile-time integer `sqrt` and verify result is a `constexpr` using a `static_assert`.
 
 ### Module 4: Templates
 - [ ] **Function Templates (Ch. 11.6):** Write a template `clamp<T>(T val, T lo, T hi)` and verify it works for `int`, `double`, and a custom comparable type.
