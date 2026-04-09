@@ -13,3 +13,4 @@ unique_list
 dispatch_table
 pipeline
 memoization_wrapper
+constexpr_sqrt
