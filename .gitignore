@@ -16,3 +16,4 @@ memoization_wrapper
 constexpr_sqrt
 
 clamp_template
+circular_buffer
