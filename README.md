@@ -27,7 +27,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **Class Templates (non-OOP usage) (Ch. 26.1):** Implement a template `CircularBuffer<T, N>` (stack-allocated, fixed-size) with push, pop, full, empty.
 - [x] **Template Specialization (Ch. 26.4–26.5):** Write a `TypeInfo<T>` struct with a `name()` specialization for `int`, `double`, `char`, and a generic fallback.
 - [x] **Variadic Templates (Ch. 26.9):** Implement `print(args...)` that prints all arguments separated by " | " using fold expressions (C++17).
-- [ ] **SFINAE & if constexpr (Ch. 11.9 / C++17):** Write a template `serialize<T>` that outputs `to_string(val)` for arithmetic types and `"[non-scalar]"` otherwise, selected at compile time.
+- [x] **SFINAE & if constexpr (Ch. 11.9 / C++17):** Write a template `serialize<T>` that outputs `to_string(val)` for arithmetic types and `"[non-scalar]"` otherwise, selected at compile time.
 
 ### Module 5: STL — Containers
 - [ ] **std::vector internals (Ch. 23.1–23.3):** Manually track size vs capacity growth; predict reallocation points and verify with `.capacity()` at each `push_back`.

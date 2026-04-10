@@ -19,3 +19,4 @@ clamp_template
 circular_buffer
 type_info
 print_args
+serialize
