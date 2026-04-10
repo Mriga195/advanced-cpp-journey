@@ -23,7 +23,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **constexpr Functions (Ch. 5.5):** Implement compile-time integer `sqrt` and verify result is a `constexpr` using a `static_assert`.
 
 ### Module 4: Templates
-- [ ] **Function Templates (Ch. 11.6):** Write a template `clamp<T>(T val, T lo, T hi)` and verify it works for `int`, `double`, and a custom comparable type.
+- [x] **Function Templates (Ch. 11.6):** Write a template `clamp<T>(T val, T lo, T hi)` and verify it works for `int`, `double`, and a custom comparable type.
 - [ ] **Class Templates (non-OOP usage) (Ch. 26.1):** Implement a template `CircularBuffer<T, N>` (stack-allocated, fixed-size) with push, pop, full, empty.
 - [ ] **Template Specialization (Ch. 26.4–26.5):** Write a `TypeInfo<T>` struct with a `name()` specialization for `int`, `double`, `char`, and a generic fallback.
 - [ ] **Variadic Templates (Ch. 26.9):** Implement `print(args...)` that prints all arguments separated by " | " using fold expressions (C++17).
