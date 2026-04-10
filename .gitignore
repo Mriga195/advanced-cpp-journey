@@ -17,3 +17,4 @@ constexpr_sqrt
 
 clamp_template
 circular_buffer
+type_info
