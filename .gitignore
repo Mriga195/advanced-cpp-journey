@@ -24,3 +24,4 @@ serialize
 growth_check
 benchmark
 word_frequency_counter
+duplicate_removal_pipeline
