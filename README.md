@@ -32,7 +32,7 @@ My progress working through advanced C++ concepts and standard library features,
 ### Module 5: STL — Containers
 - [x] **std::vector internals:** Manually track size vs capacity growth; predict reallocation points and verify with `.capacity()` at each `push_back`.
 - [x] **std::deque, std::list:** Benchmark insert-at-middle performance across vector, deque, and list for N=100k; tabulate results.
-- [ ] **std::map vs std::unordered_map:** Build a word-frequency counter; run both map types on a large text input; compare iteration order and lookup time.
+- [x] **std::map vs std::unordered_map:** Build a word-frequency counter; run both map types on a large text input; compare iteration order and lookup time.
 - [ ] **std::set & std::multiset:** Implement a duplicate-removal pipeline using `std::set` insertion; then solve the same problem with `std::unique` on a sorted vector.
 - [ ] **std::stack, std::queue, std::priority_queue:** Solve balanced parentheses with `std::stack`; implement task scheduling by priority using `std::priority_queue` with a custom comparator.
 
