@@ -20,3 +20,5 @@ circular_buffer
 type_info
 print_args
 serialize
+
+growth_check
