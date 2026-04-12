@@ -37,7 +37,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **std::stack, std::queue, std::priority_queue:** Solve balanced parentheses with `std::stack`; implement task scheduling by priority using `std::priority_queue` with a custom comparator.
 
 ### Module 6: STL — Algorithms & Iterators
-- [ ] **Iterator categories & custom iterator:** Write a Range struct with a forward iterator that yields integers from begin to end; make it work with range-for and `std::for_each`.
+- [x] **Iterator categories & custom iterator:** Write a Range struct with a forward iterator that yields integers from begin to end; make it work with range-for and `std::for_each`.
 - [ ] **std::sort, std::stable_sort, std::partial_sort:** Sort a `vector<tuple<string,int,double>>` by the third field descending, breaking ties by second field ascending using a single comparator lambda.
 - [ ] **std::transform, std::accumulate, std::reduce:** Compute the dot product of two `vector<double>` using `std::inner_product`; then replicate using `std::transform` + `std::reduce`.
 - [ ] **std::find_if, std::partition, std::rotate:** Given a `vector<int>`, partition even/odd, rotate the even partition so the largest even is first — using only STL algorithms.
