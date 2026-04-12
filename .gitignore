@@ -33,3 +33,4 @@ forward_iterator
 tuple_sort
 dot_product
 even_odd_partition 
+lazy_pipeline

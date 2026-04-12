@@ -41,7 +41,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **std::sort, std::stable_sort, std::partial_sort:** Sort a `vector<tuple<string,int,double>>` by the third field descending, breaking ties by second field ascending using a single comparator lambda.
 - [x] **std::transform, std::accumulate, std::reduce:** Compute the dot product of two `vector<double>` using `std::inner_product`; then replicate using `std::transform` + `std::reduce`.
 - [x] **std::find_if, std::partition, std::rotate:** Given a `vector<int>`, partition even/odd, rotate the even partition so the largest even is first — using only STL algorithms.
-- [ ] **std::views & Ranges (C++20):** Use `std::views::filter | std::views::transform | std::views::take` to process a raw integer range without materializing intermediate containers.
+- [x] **std::views & Ranges (C++20):** Use `std::views::filter | std::views::transform | std::views::take` to process a raw integer range without materializing intermediate containers.
 
 ### Module 7: Memory Management — Advanced
 - [ ] **Stack vs Heap, Alignment (alignas, alignof):** Write an `alignas(64)` cache-line-aligned buffer; verify alignment with `alignof` and pointer address inspection.
