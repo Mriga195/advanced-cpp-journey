@@ -38,7 +38,7 @@ My progress working through advanced C++ concepts and standard library features,
 
 ### Module 6: STL — Algorithms & Iterators
 - [x] **Iterator categories & custom iterator:** Write a Range struct with a forward iterator that yields integers from begin to end; make it work with range-for and `std::for_each`.
-- [ ] **std::sort, std::stable_sort, std::partial_sort:** Sort a `vector<tuple<string,int,double>>` by the third field descending, breaking ties by second field ascending using a single comparator lambda.
+- [x] **std::sort, std::stable_sort, std::partial_sort:** Sort a `vector<tuple<string,int,double>>` by the third field descending, breaking ties by second field ascending using a single comparator lambda.
 - [ ] **std::transform, std::accumulate, std::reduce:** Compute the dot product of two `vector<double>` using `std::inner_product`; then replicate using `std::transform` + `std::reduce`.
 - [ ] **std::find_if, std::partition, std::rotate:** Given a `vector<int>`, partition even/odd, rotate the even partition so the largest even is first — using only STL algorithms.
 - [ ] **std::views & Ranges (C++20):** Use `std::views::filter | std::views::transform | std::views::take` to process a raw integer range without materializing intermediate containers.
