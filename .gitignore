@@ -37,3 +37,4 @@ lazy_pipeline
 
 cache_aligned_buffer
 placement_new
+raii_pattern

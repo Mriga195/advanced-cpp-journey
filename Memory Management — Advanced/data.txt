@@ -1,0 +1,5 @@
+Starting the file processing test.
+Reading lines from data.txt successfully.
+If you see this line, the while loop is working properly.
+The RAII wrapper should close the file after the next step.
+Brace yourself for the runtime exception...

@@ -47,7 +47,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **Stack vs Heap, Alignment (alignas, alignof):** Write an `alignas(64)` cache-line-aligned buffer; verify alignment with `alignof` and pointer address inspection.
 - [x] **Placement new:** Implement a fixed-size arena allocator using a `char[]` buffer and placement new; support `allocate<T>()` and manual destructor calls.
 - [ ] **std::allocator & Custom Allocators:** Write a pool allocator satisfying the Allocator named requirement; plug it into `std::vector<int, PoolAllocator<int>>`.
-- [ ] **RAII Pattern (non-OOP):** Wrap a raw `FILE*` in a non-inheriting struct with a destructor; ensure it closes on all exit paths including exceptions.
+- [x] **RAII Pattern (non-OOP):** Wrap a raw `FILE*` in a non-inheriting struct with a destructor; ensure it closes on all exit paths including exceptions.
 
 ### Module 8: Modern C++ Features (C++11/14/17/20)
 - [ ] **auto, decltype, trailing return types:** Write a template `transform_pair(pair<A,B>, f, g)` where return type is deduced via `decltype`.
