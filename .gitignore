@@ -34,3 +34,5 @@ tuple_sort
 dot_product
 even_odd_partition 
 lazy_pipeline
+
+cache_aligned_buffer

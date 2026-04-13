@@ -44,7 +44,7 @@ My progress working through advanced C++ concepts and standard library features,
 - [x] **std::views & Ranges (C++20):** Use `std::views::filter | std::views::transform | std::views::take` to process a raw integer range without materializing intermediate containers.
 
 ### Module 7: Memory Management — Advanced
-- [ ] **Stack vs Heap, Alignment (alignas, alignof):** Write an `alignas(64)` cache-line-aligned buffer; verify alignment with `alignof` and pointer address inspection.
+- [x] **Stack vs Heap, Alignment (alignas, alignof):** Write an `alignas(64)` cache-line-aligned buffer; verify alignment with `alignof` and pointer address inspection.
 - [ ] **Placement new:** Implement a fixed-size arena allocator using a `char[]` buffer and placement new; support `allocate<T>()` and manual destructor calls.
 - [ ] **std::allocator & Custom Allocators:** Write a pool allocator satisfying the Allocator named requirement; plug it into `std::vector<int, PoolAllocator<int>>`.
 - [ ] **RAII Pattern (non-OOP):** Wrap a raw `FILE*` in a non-inheriting struct with a destructor; ensure it closes on all exit paths including exceptions.
